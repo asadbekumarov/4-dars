@@ -1,9 +1,10 @@
 body {
-  // overflow-y: hidden;
+  overflow-y: hidden;
+  background-color: #283a46;
 }
 .admin__panel {
   padding-top: 100px;
-  background-color: #283a46;
+
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -43,7 +44,7 @@ body {
   }
 }
 .container {
-  // display: none;
+  display: none;
   max-width: 1600px;
   margin: 0 auto;
   section {
