@@ -1,0 +1,197 @@
+body {
+  // overflow-y: hidden;
+}
+.admin__panel {
+  padding-top: 100px;
+  background-color: #283a46;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  height: 100vh;
+  h1 {
+    color: #fff;
+  }
+  input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+  }
+  button {
+    width: 318px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #6b96a9;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #8ec3db;
+  }
+  button:active {
+    scale: 0.96;
+    transition: all 0.2s linear;
+  }
+  i {
+    cursor: pointer;
+    color: #fff;
+  }
+}
+.container {
+  // display: none;
+  max-width: 1600px;
+  margin: 0 auto;
+  section {
+    height: 100vh;
+    background-color: #aeaeae;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .create {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        margin: 0px;
+        font-size: 28px;
+        line-height: 30.8px;
+        color: #454545;
+      }
+      h4 {
+        font-size: 16px;
+        line-height: 25.6px;
+        margin: 10px 0 10px 0;
+        color: #454545;
+      }
+      .id {
+        width: 300px;
+        margin: 0;
+        padding: 0 8px;
+        height: 40px;
+        border-radius: 10px;
+        background: #f8f8f8;
+        font-size: 16px;
+        color: #454545;
+        border: none;
+        outline: none;
+      }
+      .title {
+        margin: 0;
+        width: 300px;
+        width: 300px;
+        margin: 0;
+        padding: 0 8px;
+        height: 40px;
+        border-radius: 10px;
+        background: #f8f8f8;
+        font-size: 16px;
+        color: #454545;
+        border: none;
+        outline: none;
+      }
+      .decraption {
+        margin: 0;
+        width: 300px;
+        width: 300px;
+        margin: 0;
+        padding: 0 8px;
+        height: 40px;
+        border-radius: 10px;
+        background: #f8f8f8;
+        font-size: 16px;
+        color: #454545;
+        border: none;
+        outline: none;
+      }
+      .file {
+        width: 300px;
+        margin: 0;
+        width: 300px;
+        margin: 0;
+        padding: 0 8px;
+        height: 40px;
+        border-radius: 10px;
+        background: #f8f8f8;
+        font-size: 16px;
+        color: #454545;
+        border: none;
+        outline: none;
+      }
+      .submit {
+        margin-top: 18px;
+        height: 46px;
+        width: 180px;
+        border-radius: 5px;
+        background: #454545;
+        color: #fff;
+        font-size: 16px;
+        transition: 0.2s;
+        border: none;
+      }
+      .submit:hover {
+        background-color: rgb(85, 45, 232);
+      }
+      .submit:active {
+        scale: 0.96;
+        transition: all 0.2s linear;
+      }
+    }
+    .cards {
+      // background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      .card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 10px;
+        h4 {
+          font-size: 30px;
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        img {
+          border-radius: 6px;
+        }
+        h3 {
+          font-size: 28px;
+          margin: 0;
+          font-size: 20px;
+          font-weight: 600;
+          sup {
+            font-size: 12px;
+          }
+        }
+        img {
+          max-width: 200px;
+        }
+        p {
+          max-width: 200px !important;
+          margin: 0;
+          font-size: 12px;
+        }
+      }
+      .del {
+        margin-top: 12px;
+        border: none;
+        background-color: red;
+        color: #fff;
+        padding: 6px;
+        border-radius: 10px;
+      }
+      .del:hover {
+        background-color: rgb(193, 17, 17);
+      }
+      .del:active {
+        scale: 0.96;
+        transition: all 0.2s linear;
+      }
+    }
+  }
+}
